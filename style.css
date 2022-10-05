@@ -1,0 +1,750 @@
+body
+{
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+#allbacklogo
+{
+ width: 100%;
+ height: 120px;
+ background-color: rgb(2, 2, 139);
+ 
+}
+#logo 
+{
+   
+    width: 150px;
+    height: 120px; 
+    margin-left: 20px;
+    margin-right: 20px;
+    display: inline-block;
+}    
+.company-name
+{
+ color: white;
+ display: inline-block;
+ text-align: center;
+ vertical-align: 50px;
+ font-size: 32px;
+ margin-left: -29px;
+ font-family:'Courier New', Courier, monospace;
+}
+nav
+{
+  background-color: rgb(2, 2, 139) ;  
+  height: 35px;
+  width: 100%;
+  display: inline-block;
+  border-top: 5px solid black;
+  
+}
+.bar
+{
+    
+    width: 350px;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    
+    
+   
+}
+.link1
+{
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+    
+}
+.link2
+{
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.link3
+{
+    color: rgb(248, 244, 2);
+    padding: 12px;
+    text-decoration: none;
+}
+.banner
+{
+    height: 900px;
+    width: 300px;
+    background:linear-gradient(rgb(2, 2, 139), rgb(2, 2, 139),rgb(0, 0, 167));
+    float: left;
+    z-index: 2 ; 
+}
+@media only screen and (max-width: 1400px) { 
+    /* Banner left side : */ 
+      [class*="banner"] { 
+        visibility: hidden;
+        position: absolute;
+      } 
+    }
+    
+/* Wszystko pierwsze banner po lewej, zdjecie po prawej, Text o About..*/
+.container
+{
+    
+    width: 100%;
+    height: 900px;
+    background:linear-gradient(rgb(2, 2, 139), rgb(2, 2, 139),rgb(0, 0, 167))
+}
+.zdjecie1
+{
+    width: 800px;
+    height: 650px;
+    float:right;
+    margin-top: 100px;
+    z-index: 1;
+    animation-name: example;
+    animation-duration: 4.0s;
+    
+    
+}
+@keyframes example {
+    from {opacity:0;}
+    to {opacity:1;}
+}
+
+@media only screen and (max-width: 1000px) { 
+  /* First foto : */ 
+    [class*="jpg-architecture"] { 
+      width: 60vh;
+       
+    } 
+    }
+@media only screen and (max-width: 1000px) { 
+  /* Foto first foto: */ 
+    [class*="zdjecie1"] { 
+      width: 63vh;
+            
+    } 
+    }
+
+.container2
+{
+    width: 100%;
+    height: 1500px;
+    background: linear-gradient(rgb(0, 0, 167),rgb(206, 141, 2)800px  )
+}
+.Text-about
+{
+  
+  width: 500px;
+  height: 130px;
+  
+ margin-left: auto;
+ margin-right: auto;
+
+ 
+}
+.Work
+{
+ width: 800px ;
+ height: 400px;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 30px;
+float: left;
+
+}
+.Work p
+{
+  margin: 0;
+  font-size: 21px;
+  color: white;
+  word-spacing: 2px;
+  text-align: center;
+  padding: 5px;
+  margin-top: 10px;
+  font-family:cursive
+  
+}
+.foto-inside-work
+{
+ width: 500px;
+ height: 400px;
+ float: left;
+  margin-top: 5px;
+  
+ 
+  
+}
+.family-first
+{
+  
+  width: 1300px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  
+  
+}
+/* Wszystko na dole napis Team zdjecia pod napisem */
+#Text-People
+{
+  width: 500px;
+  height: 130px;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 200px;
+ 
+
+}
+.family-two
+{
+  width: 1600px;
+  height: 430px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  text-align: center;
+  word-spacing: 6px;
+  border: 3px solid black;
+}
+.first-person
+{
+  width: 300px;
+  height: 400px;
+  background-color: azure;
+  display: inline-block;
+}
+.two-person
+{
+  width: 300px;
+  height: 400px;
+  background-color: azure;
+  display: inline-block;
+}
+.three-person
+{
+  width: 300px;
+  height: 400px;
+  background-color: azure;
+  display: inline-block;
+}
+.four-person
+{
+  width: 300px;
+  height: 400px;
+  background-color: azure;
+  display: inline-block;
+}
+.five-person
+{
+  width: 300px;
+  height: 400px;
+  background-color: azure;
+  display: inline-block;
+}
+.family-two h1
+{
+  color:white;
+  margin: 0;
+  font-size: 23px;
+  font-family:'Courier New', Courier, monospace
+
+}
+/* Nastepna strona Our Work */
+.Container-OurWork
+{
+ width: 100%;
+ height: 2200px;
+ background-color: rgb(2, 2, 139);
+
+}
+.OurWork-Text
+{
+  width: 600px;
+  height: 150px;
+ margin-left: auto;
+ margin-right: auto;
+ 
+
+}
+.Big-Box
+{
+  width: 1800px;
+  height: 2000px;
+ margin-left: auto;
+ margin-right: auto;
+ word-spacing: 40px;
+ text-align: center;
+}
+.Big-Box img
+{
+box-shadow: 0px 4px 25px yellow;
+
+
+}
+/* Wszystko co na podstronie About us */
+.container-about
+{
+  width: 100%;
+  height: 900px;
+  background-color:  rgb(2, 2, 139);
+  display: flex;
+	align-items: center;
+}
+#About-Us
+{
+  width: 600px;
+  height: 220px;
+ margin-left: auto;
+ margin-right: auto;
+ display: block;
+ 
+ 
+ 
+}
+.Box-under-about
+{
+  width: 1000px;
+  height: 800px;
+  text-align: center;
+  animation-name: Aboutus;
+    animation-duration: 8.0s;
+  
+}
+@keyframes Aboutus {
+  from {opacity:0;}
+  to {opacity:3;}
+}
+.Box-under-about p
+{
+  font-size: 26px;
+  color: lightslategray
+}
+.Box-under-about h1{
+  font-size: 32px;
+  color: white
+}
+.info
+{
+ width: 600px;
+height: 41px;
+
+
+
+}
+.info p
+{
+  float: left;
+  margin: 0;
+  font-size: 18px;
+  margin-right: 17px;
+  font-weight: bolder;
+  color: white;
+}
+span
+{
+  float: left;
+  color: yellow;
+  font-size: 20px;
+  
+}
+/* Podstrona Contact */
+
+#Container-contact
+{
+ width: 100%;
+ height: 955px;
+ background-color: rgb(214, 140, 2);
+
+}
+#nav-contact
+{
+  width: 100px;
+  height: 45px;
+  float: right;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  
+  
+}
+summary
+{
+  
+  list-style-type:none;
+  cursor: pointer;
+  height: 50px;
+  color: blue;
+  
+  
+}
+details
+{
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  
+  
+}
+.nav-text
+{
+  color: white;
+  line-height: 1cm;
+  font-weight: bolder;
+  font-size: 17px;
+  text-decoration: none;
+}
+.Company-name-sectioncontact 
+
+{
+  width: 250px;
+  color: white;
+  margin: 0;
+  font-size: 32px;
+  font-family:'Courier New', Courier, monospace;
+  
+}
+.Contact-Box
+{
+ width: 1500px;
+ height: 800px;
+ box-shadow: 5px 3px 20px black;
+ margin-left: auto;
+ margin-right: auto;
+ border-radius: 200px;
+ border: 2px solid yellow;
+
+}
+.Jpg-inside-contact
+{
+  width: 600px;
+  height: 800px;
+  border-radius: 200px;
+ float: left;
+}
+.Jpg-inside-contact img
+{
+  border-radius: 200px;
+}
+.Text-inside-contact
+{
+  width: 600px;
+  height: 100px;
+  
+  float: left;
+  position: relative;
+  left: 100px;
+  top: 80px;
+}
+.Text-inside-contact h1
+{
+  font-weight: bolder;
+  font-size: 95px;
+  font-family:Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+.ID-inside-Contact
+{
+  width: 800px;
+  height: 500px;
+  background-color: white;
+  float: right;
+  border-radius: 190px;
+  margin-top: 195px;
+  border: 3px solid black;
+  
+}
+
+.Inputs-container input
+{
+  position: relative;
+  top: 150px;
+  width: 305px;
+  left: 10px;
+  border: none;
+  border-bottom: 3px solid black;
+  padding: 0px 0px 5px 5px;
+  font-weight: bolder;
+  font-size: 14px;
+
+  
+}
+
+.Inputs-container textarea
+{
+  position: relative;
+  top: 150px;
+  left: 10px;
+  padding-top: 5px;
+  width: 300px;
+  padding-left: 5px;
+  border: 3px solid black;
+  resize: none;
+  border-radius: 10px;
+  font-weight: bolder;
+  font-size: 16px;
+}
+#contact-button
+{
+width: 150px;
+height: 30px;
+background-color: black;
+position: relative;
+left: 70px;
+top: 150px;
+text-align: center;
+border-radius: 20px;
+}
+#contact-button h3 
+{
+  padding-top: 3px;
+  color: white;
+  
+}
+.rightside-info
+{
+  width: 345px;
+  height: 430px;
+  
+  float: right;
+  margin-top: -230px;
+  margin-right: 70px;
+  
+}
+.rightside-info
+{
+  line-height: 1.7;
+  
+}
+a:link
+{
+  text-decoration: none;
+}
+/* Rzeczy zwiazane z telefonem zeby sie dobrze układało */
+
+@media only screen and (max-width: 1000px) { 
+  /* All container height: */ 
+    [class*="container2"] { 
+      height: 3600px;
+            
+    } 
+    }
+
+
+
+
+
+
+@media only screen and (max-width: 700px) { 
+  /* O About: */ 
+    [class*="family-two" ] { 
+      width: 50vh;
+      height: 315vh;
+    } 
+  }
+
+
+
+
+
+@media only screen and (max-width: 1000px) { 
+  /* O About: */ 
+    [class*="family-first" ] { 
+      width: 65vh;
+      height: 140vh;
+    } 
+  }
+@media only screen and (max-width: 1000px) { 
+  /* Text in About: */ 
+    [class*="Work"] { 
+      width: 65vh;
+      height: 75vh;
+          
+    } 
+    }
+@media only screen and (max-width: 1000px) { 
+  /* Foto in side about: */ 
+    [class*="jpg-inside-work"] { 
+      width: 60vh;  
+    } 
+    }
+      
+@media only screen and (max-width: 1000px) { 
+  /* img inside work: */ 
+    [class*="jpg-about" ] { 
+      width: 60vh;
+            
+    }
+    } 
+@media only screen and (max-width: 1000px) { 
+  /* text about : */ 
+    [class*="Text-about" ] { 
+      width: 65vh;
+      height: 8vh ;
+    } 
+    }
+
+/* Druga strona OurWork na telefon */
+@media only screen and (max-width: 1000px) { 
+  /* All container height: */ 
+    [class*="Big-Box"] { 
+      width: 60vh;      
+    } 
+    }
+                
+@media only screen and (max-width: 1000px) { 
+  /* All container height: */ 
+    [class*="OurWork-Text"] { 
+      width: 55vh;
+      height: 30vh;    
+    } 
+    }
+                    
+@media only screen and (max-width: 1000px)  {
+  .Big-Box img {
+     width: 55vh; 
+  }
+  }
+                  
+@media only screen and (max-width: 1000px) { 
+   /* OurWork tło */ 
+    [class*="Container-OurWork" ] { 
+      height: 980vh ;
+      line-height:15vh ;    
+      
+    } 
+    }
+@media only screen and (max-width: 1000px)  {
+    .OurWork-Text img {
+      width: 55vh;
+    }
+    /* Strona AboutUS PODSTRONA */
+    }
+    @media only screen and (max-width: 1000px)  {
+      .jpg-about-us {
+        width: 65vh;
+        
+        
+      }
+      }
+      @media only screen and (max-width: 1000px) { 
+        /* OurWork tło */ 
+         [class*="Container-OurWork" ] { 
+           height: 980vh ;
+           line-height:15vh ;    
+           
+         } 
+         }
+      @media only screen and (max-width: 1000px)  {
+        .info {
+          width: 60vh;
+          line-height: 10vh;
+          
+          
+        }
+        }
+        @media only screen and (max-width: 1000px)  {
+          #About-Us {
+            margin-top: -80vh;
+            
+            
+          }
+          }
+        @media only screen and (max-width: 1200px) { 
+          /* Tło z tyłu Aboutus  */ 
+            [class*="container-about"] { 
+              height: 220vh;
+            } 
+          }
+          @media only screen and (max-width: 1200px) { 
+            /* Zdjecie podgladowe  : */ 
+              [class*="Jpg-uptextabout"] { 
+                visibility: hidden;
+                position: absolute;
+              } 
+            }
+            @media only screen and (max-width: 700px) { 
+              /* Napis na podstronie Aboutus  */ 
+                [class*="Box-under-about"] { 
+                  width: 65vh;
+                  margin-left: -500px;
+                  margin-top: 90vh;
+                  
+                 
+                  
+                } 
+              }
+              
+              /* Podstrona Contact US */
+              
+              
+              @media only screen and (max-width: 1000px) { 
+                /* Zdjecie na contactus : */ 
+                  [class*="jpgcontact"] { 
+                    width: 65vh;
+                    height: 40vh;
+                    
+                  } 
+                }              
+                
+                @media only screen and (max-width: 1000px) { 
+                  /* Dane do wypełnienie Email Imie I wiadomość */ 
+                    [class*="Inputs-container"] { 
+                      width: 50vh;
+                      
+                      
+                    } 
+                  }              
+                        
+                
+                  @media only screen and (max-width: 1000px)  {
+                    .Contact-Box {
+                      width: 65vh;
+                      height: 240vh;
+                      margin-top: 15vh;
+                      
+                    }
+                    }
+                    @media only screen and (max-width: 1000px) { 
+                      /* Text Contact Us  */ 
+                        [class*="Text"] { 
+                          width: 1vh;
+                          position: relative;
+                          left: 30px;
+                          top:-500px;
+                          
+                        } 
+                      } 
+                                  
+                      @media only screen and (max-width: 1000px) { 
+                        /* Pudełko z danymi całe czyli telefon, email, imie, wiadomosc itd : */ 
+                          [class*="ID-inside-Contact "] { 
+                            width: 50vh;
+                           
+                          } 
+                        } 
+                        @media only screen and (max-width: 1000px)  {
+                          .ID-inside-Contact {
+                            width: 65vh;
+                           
+                            margin-top: -39vh;
+                            text-align: center;
+                          }
+                          }
+                          
+                          @media only screen and (max-width: 1000px)  {
+                            .rightside-info {
+                              width: 48vh;
+                              margin-top: 40vh;
+                              border: none;
+                              
+                            }
+                            }
+                            
+                            
